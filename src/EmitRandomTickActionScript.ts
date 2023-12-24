@@ -23,7 +23,11 @@ export default class EmitRandomTickActionScript extends ScriptNode {
 
 	/* START-USER-CODE */
 
+	private _target?: Phaser.GameObjects.GameObject;
+
 	execute(...args: any[]): void {
+
+		this._target = this.getActionTargetObject(args);
 
 		this.nextTick(...args);
 	}
@@ -34,6 +38,12 @@ export default class EmitRandomTickActionScript extends ScriptNode {
 
 			delay: Phaser.Math.Between(this.min, this.max),
 			callback: () => {
+
+				if (this._target && !this._target.scene) {
+					// don't exec children
+					// if the game object is disabled
+					return;
+				}
 
 				this.executeChildren(...args);
 

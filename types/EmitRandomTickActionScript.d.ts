@@ -4,6 +4,7 @@ export default class EmitRandomTickActionScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     min: number;
     max: number;
+    private _target?;
     execute(...args: any[]): void;
     nextTick(...args: any[]): void;
 }
