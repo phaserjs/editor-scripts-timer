@@ -6,6 +6,7 @@
 import { ScriptNode } from "@phasereditor2d/scripts-core";
 import Phaser from "phaser";
 /* START-USER-IMPORTS */
+import GetRandom from "./GetRandom";
 /* END-USER-IMPORTS */
 
 export default class DelayRandomActionScript extends ScriptNode {
@@ -18,15 +19,14 @@ export default class DelayRandomActionScript extends ScriptNode {
 		/* END-USER-CTR-CODE */
 	}
 
-	public min: number = 0;
-	public max: number = 1000;
-
 	/* START-USER-CODE */
 
 	execute(...args: any[]): void {
 
+		const delay = GetRandom.getRandom(this);
+
 		this.scene.time.addEvent({
-			delay: Phaser.Math.Between(this.min, this.max),
+			delay,
 			callback: () => {
 
 				this.executeChildren(...args);

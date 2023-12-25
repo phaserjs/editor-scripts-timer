@@ -26,27 +26,5 @@
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 5
-    },
-    "prefabProperties": [
-        {
-            "name": "min",
-            "label": "Min",
-            "tooltip": "",
-            "defValue": 0,
-            "customDefinition": false,
-            "type": {
-                "id": "number"
-            }
-        },
-        {
-            "name": "max",
-            "label": "Max",
-            "tooltip": "",
-            "defValue": 1000,
-            "customDefinition": false,
-            "type": {
-                "id": "number"
-            }
-        }
-    ]
+    }
 }

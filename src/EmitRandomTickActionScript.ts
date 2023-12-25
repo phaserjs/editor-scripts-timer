@@ -6,6 +6,7 @@
 import { ScriptNode } from "@phasereditor2d/scripts-core";
 import Phaser from "phaser";
 /* START-USER-IMPORTS */
+import GetRandom from "./GetRandom";
 /* END-USER-IMPORTS */
 
 export default class EmitRandomTickActionScript extends ScriptNode {
@@ -17,9 +18,6 @@ export default class EmitRandomTickActionScript extends ScriptNode {
 		// Write your code here.
 		/* END-USER-CTR-CODE */
 	}
-
-	public min: number = 0;
-	public max: number = 1000;
 
 	/* START-USER-CODE */
 
@@ -34,9 +32,10 @@ export default class EmitRandomTickActionScript extends ScriptNode {
 
 	nextTick(...args: any[]) {
 
-		this.scene.time.addEvent({
+		const delay = GetRandom.getRandom(this);
 
-			delay: Phaser.Math.Between(this.min, this.max),
+		this.scene.time.addEvent({
+			delay,
 			callback: () => {
 
 				if (this._target && !this._target.scene) {

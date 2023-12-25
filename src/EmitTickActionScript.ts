@@ -25,13 +25,13 @@ export default class EmitTickActionScript extends ScriptNode {
 	execute(...args: any[]): void {
 
 		const target = this.getActionTargetObject(args);
-		
+
 		this.scene.time.addEvent({
 			delay: this.delay,
 			loop: true,
 			callback: () => {
 
-				if (target && target.scene) {
+				if (target && !target.scene) {
 					// don't exec children
 					// if the game object is disabled
 					return;
