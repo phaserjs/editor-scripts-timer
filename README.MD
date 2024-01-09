@@ -11,11 +11,13 @@ The scripts are coded in TypeScript with ES modules.
 This package depends on the following packages:
 
 - `@phasereditor2d/scripts-core`
+- `@phasereditor2d/scripts-random`
 
 To install this in your game you have to install dependencies too:
 
 ```
 npm install @phasereditor2d/scripts-core
+npm install @phasereditor2d/scripts-random
 npm install @phasereditor2d/scripts-timer
 ```
 
@@ -25,6 +27,7 @@ Also, you should add this package to the `phasereditor2d.config.json` file in yo
 {
     "scripts": [
         "@phasereditor2d/scripts-core",
+        "@phasereditor2d/scripts-random",
         "@phasereditor2d/scripts-timer"
     ]
 }
