@@ -6,7 +6,7 @@
 import { ScriptNode } from "@phasereditor2d/scripts-core";
 import Phaser from "phaser";
 /* START-USER-IMPORTS */
-import GetRandom from "./GetRandom";
+import { GetRandom } from "@phasereditor2d/scripts-random";
 /* END-USER-IMPORTS */
 
 export default class EmitRandomTickActionScript extends ScriptNode {

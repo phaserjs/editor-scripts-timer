@@ -4,7 +4,7 @@
     "settings": {
         "exportClass": true,
         "autoImport": true,
-        "prefabObjDisplayFmt": "Delay random from \"${min}\" to \"${max}\" ms",
+        "prefabObjDisplayFmt": "Delay random",
         "displayName": "Delay Random Action",
         "preloadMethodName": "",
         "preloadPackFiles": [],

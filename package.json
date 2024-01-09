@@ -1,6 +1,6 @@
 {
 	"name": "@phasereditor2d/scripts-timer",
-	"version": "1.0.5-alpha.6",
+	"version": "1.0.5-alpha.9",
 	"description": "Audio scripts for Phaser Editor 2D.",
 	"main": "out/index.js",
 	"types": "types/index.d.ts",
@@ -31,7 +31,8 @@
 	"author": "Phaser Editor 2D",
 	"license": "MIT",
 	"devDependencies": {
-		"@phasereditor2d/scripts-core": "^1.0.14-alpha.7",
+		"@phasereditor2d/scripts-core": "^1.0.14-alpha.0",
+		"@phasereditor2d/scripts-random": "^1.0.0",
 		"phaser": "^3.70.0",
 		"typescript": "^5.3.2"
 	}
