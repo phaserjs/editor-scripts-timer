@@ -1,6 +1,4 @@
 ## dev
 
-* The new random configurations are used by the EmitRandomTickActionScript and DelayRandomActionScript: 
-    - RandomMultipleComp
-    - RandomInArrayComp
-    - RandomBetweenComp
+* Adds support to the Target Action Config user component.
+* Adds support to the random value generators of the `@phasereditor2d/scripts-random` library.
