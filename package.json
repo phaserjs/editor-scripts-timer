@@ -1,6 +1,6 @@
 {
 	"name": "@phasereditor2d/scripts-timer",
-	"version": "1.0.5-alpha.9",
+	"version": "1.0.5",
 	"description": "Audio scripts for Phaser Editor 2D.",
 	"main": "out/index.js",
 	"types": "types/index.d.ts",
