@@ -3,10 +3,10 @@
 
 /* START OF COMPILED CODE */
 
-import { ScriptNode } from "@phasereditor2d/scripts-core";
+import { ScriptNode } from "@phaserjs/editor-scripts-core";
 import Phaser from "phaser";
 /* START-USER-IMPORTS */
-import { GetRandom } from "@phasereditor2d/scripts-random";
+import { GetRandom } from "@phaserjs/editor-scripts-random";
 /* END-USER-IMPORTS */
 
 export default class DelayRandomActionScript extends ScriptNode {
