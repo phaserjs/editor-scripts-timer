@@ -1,7 +1,7 @@
 {
 	"name": "@phaserjs/editor-scripts-timer",
 	"version": "2.0.0",
-	"description": "Audio scripts for Phaser Editor.",
+	"description": "Audio scripts for Phaser Editor v4.",
 	"main": "out/index.js",
 	"types": "types/index.d.ts",
 	"repository": {

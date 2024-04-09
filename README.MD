@@ -1,8 +1,8 @@
-# Phaser Editor 2D Timer Scripts (library)
+# Phaser Editor v4 Timer Scripts (library)
 
-This project contains Phaser Editor 2D scripts for using a timer.
+This project contains Phaser Editor scripts for using a timer.
 
-These script nodes are very basic and may fit on any Phaser Editor 2D project.
+These script nodes are very basic and may fit on any Phaser Editor project.
 
 The scripts are coded in TypeScript with ES modules.
 
@@ -35,7 +35,7 @@ Also, you should add this package to the `phasereditor2d.config.json` file in yo
 
 ## Installing (vanilla JavaScript)
 
-* Get the files in the [browser](./browser/) folder and copy them into your JavaScript project. It includes Phaser Editor 2D files, JavaScript files, and TypeScript type definitions.
+* Get the files in the [browser](./browser/) folder and copy them into your JavaScript project. It includes Phaser Editor files, JavaScript files, and TypeScript type definitions.
 * Add a `script` tag to the `index.html` file to load the `lib/phaserjs_editor_scripts_timer.js` file.
 
 ## Summary
